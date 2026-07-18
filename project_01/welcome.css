@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.header{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+.header .logo h1{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    
+}
+
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+.header .menu ul li{
+    font-size: 1.25rem;
+}
+
+/* Hero */
+.hero{
+    width: 100%;
+    padding-top: 6rem;
+}
+
+.hero h1{
+    font-size: 5rem;
+    white-space: nowrap;
+    text-align: center;
+}
