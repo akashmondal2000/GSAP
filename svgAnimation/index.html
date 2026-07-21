@@ -1,18 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Svg Animation Example</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="title">
-        <h1>Create Svg Animation</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div class="title">
+      <h1>Create Svg Animation</h1>
+    </div> -->
+    <div class="string">
+      <svg width="800" height="200" >
+        <path d="M 10 100 Q 400 100 720 100" stroke="#fff" fill="transparent" />
+      </svg>
     </div>
-    
 
-
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
     <script src="animation.js"></script>
-</body>
+  </body>
 </html>
